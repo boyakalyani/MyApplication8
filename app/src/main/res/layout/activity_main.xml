@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Offers"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+        android:drawablePadding="120dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get 50% off"
+        android:id="@+id/txt1_id"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:text="Apply"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false"
+        android:textColor="#0066ff"
+        android:background="@drawable/back"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="120dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:id="@+id/view3_id"
+        android:layout_marginTop="90dp"
+        android:background="#ccccb3" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/view4_id"
+        android:layout_below="@+id/view3_id"
+        android:layout_marginTop="110dp"
+        android:background="#ccccb3" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/veiw_id"
+        android:layout_below="@+id/view4_id"
+        android:layout_marginTop="110dp"
+        android:background="#ccccb3" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/view2_id"
+        android:layout_below="@+id/veiw_id"
+        android:layout_marginTop="120dp"
+        android:background="#ccccb3" />
+    <TextView
+        android:id="@+id/txt2_id"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_below="@+id/txt1_id"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Get 50% off min billing amount of 399Rs. Maximum discount will be"/>
+    <TextView
+        android:id="@+id/txt4_id"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_below="@+id/txt2_id"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:text="Get 50% off min billing amount of 399Rs. Maximum discount will be"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get 50% off"
+        android:id="@+id/txt3_id"
+        android:layout_below="@+id/txt2_id"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:text="Apply"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false"
+        android:textColor="#0066ff"
+        android:background="@drawable/back"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="232dp"/>
+    <TextView
+        android:id="@+id/txt5_id"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_below="@+id/txt2_id"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:text="Get 50% off min billing amount of 399Rs. Maximum discount will be"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get 50% off"
+        android:id="@+id/txt6_id"
+        android:layout_below="@+id/txt2_id"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="165dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:text="Apply"
+        android:id="@+id/btn_id"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false"
+        android:textColor="#0066ff"
+        android:background="@drawable/back"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="350dp"/>
+    <TextView
+        android:id="@+id/txt7_id"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_below="@+id/txt5_id"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:text="Get 50% off min billing amount of 399Rs. Maximum discount will be"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get 50% off"
+        android:id="@+id/txt8_id"
+        android:layout_below="@+id/txt5_id"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:text="Apply"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false"
+        android:textColor="#0066ff"
+        android:layout_below="@+id/btn_id"
+        android:background="@drawable/back"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"/>
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:text="next"
+        android:textColor="@color/white"
+        android:background="@drawable/backbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+</RelativeLayout>
+
